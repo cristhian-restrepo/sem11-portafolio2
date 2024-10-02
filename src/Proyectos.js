@@ -28,7 +28,18 @@ function Proyectos() {
         />
         <Proyecto
           titulo="Proyecto 2"
-          descripcion="Descripción breve del proyecto."
+          descripcion="primer versión del portafolio en html y css"
+          enlace="https://github.com/cristhian-restrepo/sem5_portafolio.git"
+        />
+        <Proyecto
+          titulo="Proyecto 3"
+          descripcion="Primera versión del proyecto final"
+          enlace="https://github.com/cristhian-restrepo/proyectofinal.git"
+        />
+        <Proyecto
+          titulo="Proyecto 4"
+          descripcion="segunda versión del portafolio usando react y vercel"
+          enlace="https://github.com/cristhian-restrepo/sem11-portafolio2.git"
         />
         
       </div>
