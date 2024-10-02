@@ -1,0 +1,39 @@
+
+
+/* Estilo para la tarjeta del contador */
+.contador-card {
+    background-color: var(--background-light);
+    padding: 30px;
+    margin: 20px auto; /* Margen automático para centrar */
+    width: 50%;
+    max-width: 400px; /* Ancho máximo para pantallas grandes */
+    text-align: center; /* Centrar el contenido */
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--box-shadow-color);
+  }
+  
+  /* Estilo para el título */
+  .contador-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los botones */
+  .botones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  /* Estilo individual para los botones */
+  .botones button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .contador-card {
+      width: 80%;
+    }
+  }
+  
