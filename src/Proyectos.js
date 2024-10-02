@@ -38,6 +38,11 @@ function Proyectos() {
         />
         <Proyecto
           titulo="Proyecto 4"
+          descripcion="Pruebas con componentes de react"
+          enlace="https://github.com/cristhian-restrepo/componentes-react.git"
+        />
+        <Proyecto
+          titulo="Proyecto 5"
           descripcion="segunda versión del portafolio usando react y vercel"
           enlace="https://github.com/cristhian-restrepo/sem11-portafolio2.git"
         />
